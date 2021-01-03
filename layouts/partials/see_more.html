@@ -5,10 +5,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="icon icon-lg"><i class="{{ .Site.Params.see_more.icon }}"></i>
+                <div class="icon icon-lg">
+                    <i class="{{ .Site.Params.see_more.icon }}"></i>
                 </div>
-                <h3 class="text-uppercase">{{ .Site.Params.see_more.title | markdownify }}</h3>
-                <p class="lead">{{ .Site.Params.see_more.subtitle | markdownify }}</p>
+                <h3 class="text-uppercase">FREE SCORECARD</h3>
+                <p class="lead">
+                    <strong>See how your business compares to industry best practices</strong> and other Bay Area small businesses.
+                    <br>Our IT Strategy Consultants will evaluate your <strong>IT Security</strong>, Business Continuity, IT Readiness, and more.
+                    <br>Use your IT Scorecard to help create an <strong>IT Solutions Roadmap</strong>.
+                </p>
                 <p class="text-center">
                     {{ with .Site.Params.see_more.link_url }}
                     <a href="{{ . }}" class="btn btn-template-transparent-black btn-lg">
